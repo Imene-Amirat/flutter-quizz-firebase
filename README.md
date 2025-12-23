@@ -13,6 +13,12 @@ et l’utilisation de contenus multimédias stockés dans le cloud.
 ---
 
 ## 📸 Snapshots et preuves
+![WhatsApp Image 2025-12-23 at 10 48 13 PM (1)](https://github.com/user-attachments/assets/0524609b-cabe-4295-8c1b-0cc49d06c91e)
+![WhatsApp Image 2025-12-23 at 10 48 13 PM (5)](https://github.com/user-attachments/assets/503395ff-b421-4762-bf2b-52a1ad1a3944)
+<img width="1854" height="723" alt="Capture d&#39;écran 2025-12-23 230131" src="https://github.com/user-attachments/assets/36727d54-bf3d-4623-932d-c552cbcaba0b" />
+
+
+
 
 ---
 
