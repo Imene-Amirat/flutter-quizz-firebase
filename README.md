@@ -12,6 +12,12 @@ et l’utilisation de contenus multimédias stockés dans le cloud.
 
 ---
 
+## 📸 Snapshots et preuves
+
+![alt text](<WhatsApp Image 2025-12-23 at 7.09.36 PM.jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (1).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (2).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (3).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (4).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (5).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (6).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM.jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.14 PM.jpeg>)
+
+---
+
 ## 🧩 Fonctionnalités principales
 
 - 🔐 Authentification utilisateur (Email / Mot de passe)
@@ -48,7 +54,6 @@ lib/
 ├── screens/
 └── theme/
 
-
 - **Repositories** : accès aux services Firebase
 - **Providers** : gestion de l’état global
 - **Screens** : interface utilisateur
@@ -62,12 +67,14 @@ L’authentification est implémentée à l’aide de **Firebase Authentication*
 avec le fournisseur **Email / Mot de passe**.
 
 ### Fonctionnalités :
+
 - inscription d’un utilisateur
 - connexion sécurisée
 - gestion de la session utilisateur
 - déconnexion
 
 Deux écrans ont été développés :
+
 - `LoginScreen`
 - `RegisterScreen`
 
@@ -82,12 +89,14 @@ Les questions du quiz sont stockées dynamiquement dans **Cloud Firestore**.
 Collection : `questions`
 
 Chaque document contient :
+
 - `theme` : thématique de la question
 - `question` : énoncé
 - `answers` : liste des réponses possibles
 - `correctIndex` : index de la réponse correcte (0–3)
 
 ### Fonctionnalités :
+
 - récupération des questions depuis Firestore
 - filtrage par thématique (Culture)
 - affichage dynamique dans l’interface
@@ -102,6 +111,7 @@ Chaque document contient :
 **Firebase Storage** est utilisé pour stocker des fichiers multimédias.
 
 ### Fonctionnalités :
+
 - sélection d’une image depuis la galerie
 - upload de l’avatar utilisateur
 - stockage dans le dossier `avatars/<uid>.jpg`
@@ -121,27 +131,9 @@ afin d’améliorer l’expérience utilisateur.
 ## 🎬 Démonstration
 
 Une vidéo de démonstration accompagne ce projet et présente :
+
 1. l’authentification utilisateur
 2. l’écran d’accueil
 3. le déroulement du quiz
 4. l’ajout d’une question
 5. la modification de l’avatar
-
----
-
-## 📸 Snapshots et preuves
-
-Le rapport contient :
-- des captures d’écran de l’application (Login, Home, Quiz, Add Question)
-- des captures de la console Firebase (Auth, Firestore, Storage)
-- des diagrammes UML (classes et séquences)
-
----
-
-## 📝 Conclusion
-
-Ce TP a permis de mettre en pratique les concepts fondamentaux du développement
-mobile avec Flutter et Firebase.  
-L’application développée est fonctionnelle, modulaire et extensible,
-et respecte les bonnes pratiques d’architecture logicielle.
-
