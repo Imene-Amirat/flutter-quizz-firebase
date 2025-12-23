@@ -14,8 +14,6 @@ et l’utilisation de contenus multimédias stockés dans le cloud.
 
 ## 📸 Snapshots et preuves
 
-![alt text](<WhatsApp Image 2025-12-23 at 7.09.36 PM.jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (1).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (2).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (3).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (4).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (5).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM (6).jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.13 PM.jpeg>) ![alt text](<WhatsApp Image 2025-12-23 at 10.48.14 PM.jpeg>)
-
 ---
 
 ## 🧩 Fonctionnalités principales
