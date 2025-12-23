@@ -1,16 +1,147 @@
-# quizz_firebase
+# 📱 TP Flutter & Firebase — Quiz Culture
 
-A new Flutter project.
+## 🎯 Objectif du TP
 
-## Getting Started
+Ce travail pratique a pour objectif de se familiariser avec le développement
+d’une application mobile avec **Flutter**, en exploitant plusieurs services
+de **Firebase**, ainsi qu’une solution de gestion d’état (**Provider**).
 
-This project is a starting point for a Flutter application.
+L’application réalisée est un **quiz de culture générale**, permettant
+l’authentification des utilisateurs, la gestion dynamique des questions,
+et l’utilisation de contenus multimédias stockés dans le cloud.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧩 Fonctionnalités principales
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔐 Authentification utilisateur (Email / Mot de passe)
+- 🏠 Écran d’accueil personnalisé
+- 🧠 Quiz de culture générale dynamique
+- ➕ Ajout de nouvelles questions
+- 👤 Avatar utilisateur (image uploadée)
+- ☁️ Stockage et récupération des données via Firebase
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **Flutter**
+- **Firebase Authentication**
+- **Cloud Firestore**
+- **Firebase Storage**
+- **Provider** (gestion d’état)
+- **Dart**
+
+---
+
+## 🏗️ Architecture du projet
+
+L’application suit une architecture modulaire avec séparation des responsabilités :
+
+lib/
+├── data/
+│ ├── models/
+│ └── repositories/
+├── business_logic/
+│ └── providers/
+└── presentation/
+├── screens/
+└── theme/
+
+
+- **Repositories** : accès aux services Firebase
+- **Providers** : gestion de l’état global
+- **Screens** : interface utilisateur
+- **Theme** : styles et couleurs de l’application
+
+---
+
+## 🔐 Question 2 — Firebase Authentication
+
+L’authentification est implémentée à l’aide de **Firebase Authentication**
+avec le fournisseur **Email / Mot de passe**.
+
+### Fonctionnalités :
+- inscription d’un utilisateur
+- connexion sécurisée
+- gestion de la session utilisateur
+- déconnexion
+
+Deux écrans ont été développés :
+- `LoginScreen`
+- `RegisterScreen`
+
+---
+
+## 🗃️ Question 1 — Cloud Firestore (Quiz Culture)
+
+Les questions du quiz sont stockées dynamiquement dans **Cloud Firestore**.
+
+### Modélisation des données
+
+Collection : `questions`
+
+Chaque document contient :
+- `theme` : thématique de la question
+- `question` : énoncé
+- `answers` : liste des réponses possibles
+- `correctIndex` : index de la réponse correcte (0–3)
+
+### Fonctionnalités :
+- récupération des questions depuis Firestore
+- filtrage par thématique (Culture)
+- affichage dynamique dans l’interface
+- calcul du score
+- réinitialisation du quiz
+- ajout de nouvelles questions via un formulaire dédié
+
+---
+
+## 🖼️ Question 3 — Firebase Storage
+
+**Firebase Storage** est utilisé pour stocker des fichiers multimédias.
+
+### Fonctionnalités :
+- sélection d’une image depuis la galerie
+- upload de l’avatar utilisateur
+- stockage dans le dossier `avatars/<uid>.jpg`
+
+Un bouton interactif permet à l’utilisateur de modifier son avatar depuis l’écran d’accueil.
+
+---
+
+## 🎨 Interface utilisateur (UI/UX)
+
+L’interface adopte une identité visuelle cohérente basée sur une **palette bordeaux**.
+Des cartes arrondies, des icônes et des feedbacks visuels ont été intégrés
+afin d’améliorer l’expérience utilisateur.
+
+---
+
+## 🎬 Démonstration
+
+Une vidéo de démonstration accompagne ce projet et présente :
+1. l’authentification utilisateur
+2. l’écran d’accueil
+3. le déroulement du quiz
+4. l’ajout d’une question
+5. la modification de l’avatar
+
+---
+
+## 📸 Snapshots et preuves
+
+Le rapport contient :
+- des captures d’écran de l’application (Login, Home, Quiz, Add Question)
+- des captures de la console Firebase (Auth, Firestore, Storage)
+- des diagrammes UML (classes et séquences)
+
+---
+
+## 📝 Conclusion
+
+Ce TP a permis de mettre en pratique les concepts fondamentaux du développement
+mobile avec Flutter et Firebase.  
+L’application développée est fonctionnelle, modulaire et extensible,
+et respecte les bonnes pratiques d’architecture logicielle.
+
